@@ -12,15 +12,29 @@ struct ImplicitAnimation: View {
 
     var body: some View {
         Button("Tap Me") {
-            animationAmount += 1
+//            animationAmount += 1
         }
         .padding(50)
         .background(Color.red)
         .foregroundColor(.white)
         .clipShape(Circle())
-        .scaleEffect(animationAmount)
-        .blur(radius: (animationAmount - 1) * 3)
-        .animation(.default)
+        .overlay(
+            Circle()
+                .stroke(Color.red)
+                .scaleEffect(animationAmount)
+                .opacity(Double(2 - animationAmount))
+                .animation(Animation.easeInOut(duration: 1).repeatForever(autoreverses: false))
+        )
+//        .scaleEffect(animationAmount)
+//        .animation(.easeOut)
+//        .animation(.interpolatingSpring(stiffness: 50, damping: 1))
+//        .animation(.easeInOut(duration: 2))
+//        .animation(Animation.easeInOut(duration: 2).delay(1))
+//        .animation(Animation.easeInOut(duration: 1).repeatCount(3, autoreverses: true))
+//        .animation(Animation.easeInOut(duration: 1).repeatForever(autoreverses: true))
+        .onAppear(perform: {
+            animationAmount = 2
+        })
     }
 }
 
