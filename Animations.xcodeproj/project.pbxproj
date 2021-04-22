@@ -12,6 +12,7 @@
 		E259AFF126321CB8004D83E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E259AFF026321CB8004D83E2 /* Assets.xcassets */; };
 		E259AFF426321CB8004D83E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E259AFF326321CB8004D83E2 /* Preview Assets.xcassets */; };
 		E259AFFD26321DBA004D83E2 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259AFFC26321DBA004D83E2 /* ImplicitAnimation.swift */; };
+		E259B00026322134004D83E2 /* AnimationBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259AFFF26322134004D83E2 /* AnimationBindings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E259AFF326321CB8004D83E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E259AFF526321CB8004D83E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E259AFFC26321DBA004D83E2 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
+		E259AFFF26322134004D83E2 /* AnimationBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBindings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E259AFEC26321CB6004D83E2 /* AnimationsApp.swift */,
 				E259AFEE26321CB6004D83E2 /* ContentView.swift */,
 				E259AFFC26321DBA004D83E2 /* ImplicitAnimation.swift */,
+				E259AFFF26322134004D83E2 /* AnimationBindings.swift */,
 				E259AFF026321CB8004D83E2 /* Assets.xcassets */,
 				E259AFF526321CB8004D83E2 /* Info.plist */,
 				E259AFF226321CB8004D83E2 /* Preview Content */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E259B00026322134004D83E2 /* AnimationBindings.swift in Sources */,
 				E259AFFD26321DBA004D83E2 /* ImplicitAnimation.swift in Sources */,
 				E259AFEF26321CB6004D83E2 /* ContentView.swift in Sources */,
 				E259AFED26321CB6004D83E2 /* AnimationsApp.swift in Sources */,
