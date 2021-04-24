@@ -14,6 +14,7 @@
 		E259AFFD26321DBA004D83E2 /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259AFFC26321DBA004D83E2 /* ImplicitAnimation.swift */; };
 		E259B00026322134004D83E2 /* AnimationBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259AFFF26322134004D83E2 /* AnimationBindings.swift */; };
 		E259B00326322451004D83E2 /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259B00226322451004D83E2 /* ExplicitAnimation.swift */; };
+		E259B00B26339899004D83E2 /* DragCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259B00A26339899004D83E2 /* DragCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E259AFFC26321DBA004D83E2 /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
 		E259AFFF26322134004D83E2 /* AnimationBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBindings.swift; sourceTree = "<group>"; };
 		E259B00226322451004D83E2 /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		E259B00A26339899004D83E2 /* DragCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E259AFFC26321DBA004D83E2 /* ImplicitAnimation.swift */,
 				E259AFFF26322134004D83E2 /* AnimationBindings.swift */,
 				E259B00226322451004D83E2 /* ExplicitAnimation.swift */,
+				E259B00A26339899004D83E2 /* DragCard.swift */,
 				E259AFF026321CB8004D83E2 /* Assets.xcassets */,
 				E259AFF526321CB8004D83E2 /* Info.plist */,
 				E259AFF226321CB8004D83E2 /* Preview Content */,
@@ -152,6 +155,7 @@
 				E259AFEF26321CB6004D83E2 /* ContentView.swift in Sources */,
 				E259B00326322451004D83E2 /* ExplicitAnimation.swift in Sources */,
 				E259AFED26321CB6004D83E2 /* AnimationsApp.swift in Sources */,
+				E259B00B26339899004D83E2 /* DragCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
